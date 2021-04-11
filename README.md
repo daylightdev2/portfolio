@@ -1,3 +1,3 @@
 # Portfólio 
-Aprendendo a criar algo com HTML CSS e JavaScript
+Aprendendo a criar algo com HTML CSS e JavaScript.
 
