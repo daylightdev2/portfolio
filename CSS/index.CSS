@@ -1,29 +1,38 @@
 header {
+    display: flex;
+    justify-content: space-between;
     background-color: #7C5E99;
-
+    border-bottom: 10px solid #000;
+    padding: 10px 20px;
 }
 
 nav {
-    /*display: inline flow-root;*/
     text-align: right;
-
 }
 
 a {
-    align-content: right;
+    display: inline-flex;
+    align-items: center;
     color: #fff;
     font-size: 20px;
     font-family: 'Fira Code', Arial, Helvetica, sans-serif;
     font-weight: 500;
     text-decoration: none;  
-    margin: 30px;
+    margin-right: 30px;
+}
 
+a:before {
+    content: "";
+    background-color: #F25A70;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
 }
 
 #button {
     display: inline-block;
     background-color: #F25A70;
     box-shadow: 5px 4px 0px black;
-    padding: 20px 18px 40px;
-
+    padding: 18px 20px;
+    margin-right: 0;
 }
