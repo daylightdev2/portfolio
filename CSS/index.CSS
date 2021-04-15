@@ -6,6 +6,12 @@ header {
     padding: 10px 20px;
 }
 
+#logo:hover {
+    background-color: #F25A70;
+    box-shadow: 5px 4px 0px black;
+    translate: 3px -2px;
+}
+
 nav {
     text-align: right;
 }
@@ -29,10 +35,21 @@ a:before {
     margin-right: 10px;
 }
 
+a:hover {
+    background-color: #F25A70;
+    box-shadow: 5px 4px 0px black;
+    transform:translate(3px, -2px)
+}
+
 #button {
     display: inline-block;
     background-color: #F25A70;
     box-shadow: 5px 4px 0px black;
     padding: 18px 20px;
     margin-right: 0;
+}
+
+#button:hover {
+    background-color: #fc3e5a;
+    transform:translate(3px, -2px)
 }
